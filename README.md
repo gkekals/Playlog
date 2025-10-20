@@ -1,2 +1,2 @@
-# Playlog
+# PHOTOMEMO
 
