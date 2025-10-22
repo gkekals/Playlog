@@ -19,6 +19,8 @@ const AuthPanel = ({
     const isAdminPage = requiredRole === 'admin'
     const title = isAdminPage ? '관리자 인증' : '로그인'
 
+
+
     useEffect(() => {
         if (!isAuthed || !user) return
 
@@ -44,7 +46,8 @@ const AuthPanel = ({
     }
 
     return (
-        <section className='container-sm admin-card'>
+        <section className='admin-wrap'>
+            <div className="inner">
             <header className='admin-head'>
                 <h1 className='title'>
                     {isAdminPage ? '🎧 관리자 인증' : '🎵 플레이로그 로그인'}
@@ -95,6 +98,7 @@ const AuthPanel = ({
                     {JSON.stringify(me, null, 2)}
                 </pre>
             )}
+            </div>
         </section>
     )
 }
