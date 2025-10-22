@@ -50,7 +50,7 @@ const AuthPanel = ({
             <div className="inner">
             <header className='admin-head'>
                 <h1 className='title'>
-                    {isAdminPage ? '🎧 관리자 인증' : '🎵 플레이로그 로그인'}
+                    {isAdminPage ? '🎧 로그인' : '🎵 플레이로그 로그인'}
                 </h1>
                 <p>
                     로그인 또는 회원가입 후 플레이로그 이용이 가능합니다.

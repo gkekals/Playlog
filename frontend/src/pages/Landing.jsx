@@ -7,7 +7,7 @@ const Landing = () => {
         <section className="landing">
             <div className="container">
                 <div className="landing-hero">
-                    <h1>플레이로그</h1>
+                    <h1>PlayLog</h1>
                     <p className="landing-sub">오늘 들은 음악, 한 줄 감상으로 기록하세요.</p>
                     <Link to="/admin/login" className="btn btn-primary">시작하기</Link>
                 </div>
